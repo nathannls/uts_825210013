@@ -1,0 +1,421 @@
+* {padding: 0px; margin: 0px}
+
+.container {
+	width: 1360px; margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: white;
+}
+
+menu{
+	width: 100%;
+	margin: auto;
+	background: white;
+	position: sticky; z-index: 1;
+	top: 0;
+}
+
+.kiri img{
+	float : left;
+	padding : 10px;
+}
+
+nav ul li {
+	float: left; list-style: none;
+	margin-top: 20px;
+}
+
+nav ul li a{
+	margin-right: 30px; text-decoration: none;
+	padding: 3px 15px; color: black;
+}
+
+nav ul li ul{
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display:block;
+    background-color: white;
+    padding: 5px;	
+}
+
+nav{
+    height: 40px; line-height:40px;
+    padding-bottom: 38px;
+}
+
+
+nav ul li ul{
+	position : absolute;
+}
+
+nav ul li ul li{
+	float : none;
+	position : relative;
+}
+
+nav ul li a:hover{color : blue;}
+
+nav ul li:hover{background: white;}
+
+.kanan img {
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+	margin-top: 29px;
+	margin-left : 150px;
+}
+
+.kanan h4{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.sosmed img{
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+	margin-top: 29px;
+	margin-left: 10px;
+}
+
+.search1 img{
+	margin-left: 30px;
+	padding: 26px 37px 26px 37px;
+	background-color: red;
+	width: 28px;
+	height: 25px;
+}
+
+.picturebox {
+	background: #130f40;
+	position: relative;
+}
+
+.picturebox img{
+	width: 100%;
+	height : 500px;
+}
+
+.picturebox h1{
+	position: absolute;
+	top: 20%;
+	left: 38%;
+	color : white;
+	font-size: 70px;
+	font-family: Lucida Handwriting;
+}
+
+.picturebox p {
+	position: absolute;
+	bottom: 53%;
+	left: 27%;
+	color : white;
+	font-size: 40px;
+}
+
+iframe{
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
+.get{
+	width: 1150px;
+	height: 500px;
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
+.get h1{
+	margin-bottom: 22px;
+}
+
+.get .text{
+	width: 780px;
+	height: 500px;
+	float: left;
+}
+
+.get textarea{
+	width: 730px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 200px;
+}
+
+
+.tengah .kiri{
+	float: left;
+	margin-right: 15px;
+}
+
+.tengah .kiri input{
+	width: 357px;
+	height: 35px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.tengah .kanan input{
+	width: 363px;
+	height: 35px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.bawah input{
+	width: 740px;
+	height: 40px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.get button{
+	color: white;
+	width: 120px;
+	height: 50px;
+	margin-top: 40px;
+	background-color:#0984e3;
+	transition : background-color 0.3s;
+}
+
+.get button:hover{
+	background-color: red;
+}
+
+.info{
+	width: 350px;
+	height: 500px;
+	float: left;
+}
+
+.info img{
+	width: 30px;
+	height: 30px;
+}
+
+.rmh img{
+	float: left;
+	padding-top: 65px;
+	padding-left: 50px;
+}
+
+.rmh .tulis{
+	float: left;
+	width: auto;
+	font-size:20px;
+	margin-top: 55px;
+	margin-left: 10px;
+}
+
+.hp img{
+	float: left;
+	padding-top: 65px;
+	padding-left: 50px;
+	
+}
+
+.hp .tulis{
+	float: left;
+	width: auto;
+	font-size:20px;
+	margin-top: 55px;
+	margin-left: 10px;
+}
+
+.mail img{
+	float: left;
+	padding-top: 65px;
+	padding-left: 50px;
+}
+
+.mail .tulis{
+	float: left;
+	width: auto;
+	font-size:20px;
+	margin-top: 55px;
+	margin-left: 10px;
+}
+
+
+
+.isifoot{
+	margin-top: 140px;
+	height: 570px;
+	width:90%;
+	background-color: #130f40;
+	float: left;
+	margin-left:80px;
+	
+}
+
+.ftravelo{
+	width: 240px;
+	color: gray;
+	padding-top: 100px;
+	padding-left: 100px;
+	float: left;
+	padding-right: 50px;
+}
+
+.tratas{
+	padding-bottom: 50px;
+}
+
+.tratas img{
+	width: 170px;
+}
+
+.trtengah .text p{
+	margin-bottom: 20px;
+	font-size: 17px;
+	color: grey;
+	text-decoration: none;
+	list-style: none;
+}
+
+.trtengah .link p{
+	margin-bottom: 20px;
+	font-size: 17px;
+	color: grey;
+	text-decoration: none;
+	list-style: none;
+	transition : color 1s;
+}
+
+.trtengah .link p:hover{
+	margin-bottom: 20px;
+	font-size: 17px;
+	color: red;
+	text-decoration: none;
+	list-style: none;
+}
+
+.trbawah img{
+	
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+	margin-top: 29px;
+	margin-left: 15px;
+}
+
+.company{
+	padding-top:110px;
+	margin-left: 50px;
+	padding-right: 30px;
+	float: left;
+}
+
+.company h1{
+	color: white;
+	font-size: 26px;
+	margin-bottom: 50px;
+}
+
+.company p{
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+}
+
+.fpopular{
+	padding-top:110px;
+	margin-left: 50px;
+	float: left;
+}
+
+.fpopular p{
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+}
+
+.fpopular .atas p{
+	color: white;
+	font-size: 26px;
+	margin-bottom: 50px;
+}
+
+.fpopular .bwhkiri{
+	float: left;
+	padding-right: 50px;
+}
+
+.fpopular .bwhkiri p{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.fpopular .bwhkanan{
+	float: left;
+}
+
+.fpopular .bwhkanan p{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.instagram{
+	padding-top:110px;
+	margin-left: 90px;
+	float: left;
+}
+
+.instagram p{
+	text-decoration: none;
+	list-style: none;
+	color: gray;
+}
+
+.instagram .igatas p {
+	color: white;
+	font-size: 26px;
+	margin-bottom: 50px;
+}
+
+.instagram img{
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.copy {
+	position: absolute;
+	display: block;
+	width: 1000px;
+	margin-top: 650px;
+	margin-left: 400px;
+	border-top: 2px solid black;
+
+}
+
+.copy p {
+	color: white;
+	margin-top : 20px;
+	margin-left: 21%;
+	font-size: 18px;
+}
+
+.copy a {
+	margin-left: 5px;
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
